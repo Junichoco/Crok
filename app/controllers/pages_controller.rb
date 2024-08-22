@@ -13,6 +13,7 @@ class PagesController < ApplicationController
 
   def landing
     # No authentication required
+    
   end
 
   def features
