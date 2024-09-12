@@ -9,7 +9,7 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+gem "pg"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
@@ -55,6 +55,11 @@ gem 'select2-rails'
 gem "chartkick"
 gem "groupdate"
 gem 'chart-js-rails'
+gem 'capistrano', '~> 3.16'
+gem 'capistrano-rails', '~> 1.6'
+gem 'capistrano-rbenv', '~> 2.2'
+gem 'capistrano-bundler', '~> 1.6'
+gem 'capistrano3-puma', '~> 5.0'
 
 group :development, :test do
   gem "dotenv-rails"
